@@ -6,10 +6,10 @@
 */
 
 //—————「 Menu 」—————//
-exports.menu = (botname, pushname, salam) => {
+exports.menu = (jallbotz, pushname, salam) => {
 	return`Selamat ${salam} kak ${pushname}
 
-Saya ${botname}, Bot Ini Adalah Beta Multi-Device WhatsApp.
+Saya ${jalbotz}, Bot Ini Adalah Beta Multi-Device WhatsApp.
 Jika Kamu Menemukan Semacam Bug Atau Kesalahan Mohon Dimaklumi Dulu Ya, Lapor Owner Agar Segera Di Perbaiki🙏`
 }
 
@@ -19,11 +19,11 @@ exports.list = (pushname) => {
 }
 
 //—————「 All Menu 」—————//
-exports.allmenu = (prefix, pushname, botname, time, salam) => {
+exports.allmenu = (prefix, pushname, jallbotz, time, salam) => {
 return`  _Selamat ${salam} kak ${pushname}_
 
   *⏰ Time Server : ${time}*
-  *📚 List Menu : ${botname}*
+  *📚 List Menu : ${jallbotz}*
 
   *GROUP MENU*
   *≻* ${prefix}linkgroup
@@ -443,7 +443,7 @@ exports.leave = () => {
 }
 
 //—————「 Donasi 」—————//
-exports.donasi  = (ownernomer) => {
+exports.donasi  = (6282110179007) => {
 	return`
 —————「 *DONATE* 」—————
 
@@ -463,17 +463,17 @@ Thanks!
   *JADI BOT* 
   *≻* Jadi Bot 15k Tidak Owner (1 minggu)
   *≻* Jadi Bot + Owner 20k (1 bulan)
-  *≻* Jadi Bot + Owner 25k (Permanen)
+  *≻* Jadi Bot + Owner 25k (3 bulan)
 
   *JASA RUN BOT*
   *≻* Run Bot 15k (1 minggu)
   *≻* Run Bot 20k (1 bulan)
-  *≻* Run Bot 25k (Permanen)
+  *≻* Run Bot 25k (3 bulan)
 
   *Minat? Langsung chat aja ya cuy 🐦*
 
   *Contact person Owner* :
-  wa.me/${ownernomer}
+  wa.me/${6282110179007}
 `
 }
 
@@ -962,5 +962,6 @@ exports.thanksto = () => {
   *≻* Sanzy
   *≻* Nekel
   *≻* Bagas Prdn
-`
+` *≻* Jall store
+  *≻* Fanz store
 }
